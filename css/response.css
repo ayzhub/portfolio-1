@@ -1,0 +1,664 @@
+/*------------------------------------------------------------- 
+  Media queries
+---------------------------------------------------------------*/
+
+@media handheld,
+only screen and (max-width: 1200px) {
+    #top-header {
+        padding: 15px 20px;
+    }
+
+    #price-tables #plans .plan {
+        width: 49%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+
+    .team-social {
+        height: 30px;
+    }
+
+    .team-social a i {
+        font-size: 1em;
+        padding: 3px;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 767px) {
+    #top-header {
+        display: none;
+    }
+
+    .logo-wrap {
+        float: left;
+        width: 100%;
+        margin-bottom: .5em;
+    }
+
+    #top-header .col-1-1 {
+        margin: 0;
+    }
+
+    .navigation ul {
+        display: none;
+        height: 100%;
+
+    }
+
+    .navigation {
+        float: none;
+    }
+
+    .navigation li {
+        width: 100%;
+    }
+
+    .navigation a {
+        margin-left: 0;
+        width: 100% !important;
+        display: block;
+    }
+
+    .navigation label {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 7px;
+        color: #fff;
+        min-height: 2.25em;
+        padding: .45em;
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    .navigation label:after {
+        position: absolute;
+        right: .25em;
+        top: 0;
+        content: "\2261";
+        font-size: 1.8em;
+    }
+
+    .navigation input[type=checkbox]:checked~label:after {
+        color: #fff;
+    }
+
+    .navigation input[type=checkbox]:checked~ul {
+        display: block;
+    }
+
+    .navigation input[type=checkbox]:checked~ul>li {
+        width: 100%;
+        text-align: left;
+        padding: .8em 0;
+    }
+
+    .navigation .sub-menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .service-entry {
+        margin-bottom: 2.5em;
+    }
+
+    #page-sidebar-grid .post-wrap {
+        width: 100%;
+    }
+
+    .isotope-item {
+        width: 100%;
+    }
+
+    .single {
+        width: 100%
+    }
+
+    .overlay i {
+        padding: 145px 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 2em;
+    }
+
+    #price-tables #plans .plan {
+        width: 100%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 480px) {
+
+    .header-carousel {
+        height: 620px;
+    }
+
+    .social-set a {
+        padding: 0 !important;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap .post {
+        padding: 1em !important;
+    }
+
+    .post-wrap .post-meta li a {
+        margin: 0;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .comments,
+    #leave-comment {
+        padding: .6em 1.7em;
+    }
+
+    ul.nested-comments li {
+        margin: 0 1em;
+    }
+
+    ul.nested-comments ul li {
+        margin: 0;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap {
+        width: 100%;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p {
+        width: 100%;
+    }
+
+    .parallax-section .wrap {
+        padding: 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 1.2em;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p,
+    .home-slider .content p {
+        font-size: 0.8em;
+        margin: 0 auto 10px auto;
+        line-height: 18px;
+    }
+
+    .team-social {
+        height: 50px;
+        opacity: 1;
+    }
+
+    .team-social a i {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+}
+
+/*------------------------------------------------------------- 
+  Media queries
+---------------------------------------------------------------*/
+
+@media handheld,
+only screen and (max-width: 1200px) {
+    #top-header {
+        display: none;
+    }
+
+    #price-tables #plans .plan {
+        width: 49%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+
+    .team-social {
+        height: 30px;
+    }
+
+    .team-social a i {
+        font-size: 1em;
+        padding: 3px;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 767px) {
+    #top-header {
+        display: none;
+    }
+
+    .logo-wrap {
+        float: left;
+        width: 100%;
+        margin-bottom: .5em;
+    }
+
+    #top-header .col-1-1 {
+        margin: 0;
+    }
+
+    .navigation ul {
+        display: none;
+        height: 100%;
+
+    }
+
+    .navigation {
+        float: none;
+    }
+
+    .navigation li {
+        width: 100%;
+    }
+
+    .navigation a {
+        margin-left: 0;
+        width: 100% !important;
+        display: block;
+    }
+
+    .navigation label {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 7px;
+        color: #fff;
+        min-height: 2.25em;
+        padding: .45em;
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    .navigation label:after {
+        position: absolute;
+        right: .25em;
+        top: 0;
+        content: "\2261";
+        font-size: 1.8em;
+    }
+
+    .navigation input[type=checkbox]:checked~label:after {
+        color: #fff;
+    }
+
+    .navigation input[type=checkbox]:checked~ul {
+        display: block;
+    }
+
+    .navigation input[type=checkbox]:checked~ul>li {
+        width: 100%;
+        text-align: left;
+        padding: .8em 0;
+    }
+
+    .navigation .sub-menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .service-entry {
+        margin-bottom: 2.5em;
+    }
+
+    #page-sidebar-grid .post-wrap {
+        width: 100%;
+    }
+
+    .isotope-item {
+        width: 100%;
+    }
+
+    .single {
+        width: 100%
+    }
+
+    .overlay i {
+        padding: 145px 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 2em;
+    }
+
+    #price-tables #plans .plan {
+        width: 100%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 480px) {
+
+    .header-carousel {
+        height: 620px;
+    }
+
+    .social-set a {
+        padding: 0 !important;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap .post {
+        padding: 1em !important;
+    }
+
+    .post-wrap .post-meta li a {
+        margin: 0;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .comments,
+    #leave-comment {
+        padding: .6em 1.7em;
+    }
+
+    ul.nested-comments li {
+        margin: 0 1em;
+    }
+
+    ul.nested-comments ul li {
+        margin: 0;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap {
+        width: 100%;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p {
+        width: 100%;
+    }
+
+    .parallax-section .wrap {
+        padding: 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 1.2em;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p,
+    .home-slider .content p {
+        font-size: 0.8em;
+        margin: 0 auto 10px auto;
+        line-height: 18px;
+    }
+
+    .team-social {
+        height: 50px;
+        opacity: 1;
+    }
+
+    .team-social a i {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+}
+
+/*------------------------------------------------------------- 
+  Media queries
+---------------------------------------------------------------*/
+
+@media handheld,
+only screen and (max-width: 1200px) {
+    #top-header {
+        padding: 15px 20px;
+    }
+
+    #price-tables #plans .plan {
+        width: 49%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+
+    .team-social {
+        height: 30px;
+    }
+
+    .team-social a i {
+        font-size: 1em;
+        padding: 3px;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 767px) {
+    #top-header {
+        position: absolute;
+        padding: 8px 0;
+    }
+
+    .logo-wrap {
+        float: left;
+        width: 100%;
+        margin-bottom: .5em;
+    }
+
+    #top-header .col-1-1 {
+        margin: 0;
+    }
+
+    .navigation ul {
+        display: none;
+        height: 100%;
+
+    }
+
+    .navigation {
+        float: none;
+    }
+
+    .navigation li {
+        width: 100%;
+    }
+
+    .navigation a {
+        margin-left: 0;
+        width: 100% !important;
+        display: block;
+    }
+
+    .navigation label {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 7px;
+        color: #fff;
+        min-height: 2.25em;
+        padding: .45em;
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    .navigation label:after {
+        position: absolute;
+        right: .25em;
+        top: 0;
+        content: "\2261";
+        font-size: 1.8em;
+    }
+
+    .navigation input[type=checkbox]:checked~label:after {
+        color: #fff;
+    }
+
+    .navigation input[type=checkbox]:checked~ul {
+        display: block;
+    }
+
+    .navigation input[type=checkbox]:checked~ul>li {
+        width: 100%;
+        text-align: left;
+        padding: .8em 0;
+    }
+
+    .navigation .sub-menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .service-entry {
+        margin-bottom: 2.5em;
+    }
+
+    #page-sidebar-grid .post-wrap {
+        width: 100%;
+    }
+
+    .isotope-item {
+        width: 100%;
+    }
+
+    .single {
+        width: 100%
+    }
+
+    .overlay i {
+        padding: 145px 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 2em;
+    }
+
+    #price-tables #plans .plan {
+        width: 100%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-tables #plans>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media handheld,
+only screen and (max-width: 480px) {
+
+    .content{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    img{
+        width: 80%;
+        padding: 0 5px;
+    }
+
+    .header-carousel {
+        height: 620px;
+    }
+
+    .social-set a {
+        padding: 0 !important;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap .post {
+        padding: 1em !important;
+    }
+
+    .post-wrap .post-meta li a {
+        margin: 0;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .comments,
+    #leave-comment {
+        padding: .6em 1.7em;
+    }
+
+    ul.nested-comments li {
+        margin: 0 1em;
+    }
+
+    ul.nested-comments ul li {
+        margin: 0;
+    }
+
+    #page-sidebar-no-sidebar .post-wrap {
+        width: 100%;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p {
+        width: 100%;
+    }
+
+    .parallax-section .wrap {
+        padding: 0;
+    }
+
+    .parallax-section .content h2,
+    .content-header h2 {
+        font-size: 1.2em;
+    }
+
+    .parallax-section .content p,
+    .top-slider .content-header p,
+    .home-slider .content p {
+        font-size: 0.8em;
+        margin: 0 auto 10px auto;
+        line-height: 18px;
+    }
+
+    .team-social {
+        height: 50px;
+        opacity: 1;
+    }
+
+    .team-social a i {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+}
