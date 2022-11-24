@@ -58,24 +58,31 @@ body {
 }
 
 .shape,
-.shape1,
-.shape2 {
+.shape1 {
   width: 50vh;
   height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.shape2 {
+  width: 70vh;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .shape {
-  background-image: url(/images/Two\ Faces.jpg);
+  background-image: url(/images/TwoFaces.jpg);
 }
 
 .shape1 {
-  background-image: url(/images/Sara\ Baqatyan.jpg);
+  background-image: url(/images/1.jpg);
 }
 
 .shape2 {
-  background-image: url(/images/Impulse.jpg);
+  background-image: url(/images/Overlap.jpg);
 }
 
 .img {
